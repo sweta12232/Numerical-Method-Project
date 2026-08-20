@@ -2,16 +2,6 @@
 matrix_solver.py
 ================
 Direct solvers, eigenvalue iterations, and conditioning diagnostics.
-
-Every routine here is implemented from first principles. No calls are made to
-numpy.linalg or scipy: numpy is used only as an array container.
-
-References (Altac, 2024, Numerical Methods for Scientists and Engineers):
-    Ch. 2  Linear Systems: Fundamentals and Direct Methods
-    Ch. 11 Eigenvalues and Eigenvalue Problems
-
-BSIT 400 -- Numerical Methods
-Course Learning Outcomes addressed: CLO 1, CLO 2, CLO 3
 """
 
 import numpy as np
