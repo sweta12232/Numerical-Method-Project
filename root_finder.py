@@ -32,8 +32,6 @@ Newton-Raphson  -- quadratic convergence, requires the derivative
 Secant          -- superlinear convergence, derivative-free
 Bisection       -- linear convergence, but guaranteed given a sign change
 
-Reference: Altac (2024), Ch. 4 (Nonlinear Equations)
-BSIT 400 -- CLO 1, CLO 4
 """
 
 import numpy as np
