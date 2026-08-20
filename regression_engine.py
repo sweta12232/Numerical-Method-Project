@@ -20,8 +20,6 @@ three orders of magnitude (161 to 70,207 ports). Minimising absolute error
 would let the largest states dominate the fit entirely. This choice is fixed
 before fitting and is not revisited on the basis of results.
 
-Reference: Altac (2024), Ch. 4 (Nonlinear Equations), Ch. 7 (Least Squares)
-BSIT 400 -- CLO 1, CLO 2, CLO 4, CLO 6
 """
 
 import numpy as np
