@@ -16,7 +16,7 @@ Stage 6  Error assessment: census error propagation
 Stage 7  Objective sensitivity
 Stage 8  Figures
 
-Module map (as required by the project brief)
+Module map
 --------------------------------------------
 matrix_solver.py      Matrix Solver     -- Gauss-Jordan, Cholesky, eigenvalues
 regression_engine.py  Regression Engine -- nonlinear Gauss-Newton fit
