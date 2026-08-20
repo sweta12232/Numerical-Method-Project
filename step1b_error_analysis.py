@@ -19,8 +19,6 @@ Experiment 2 -- data error
 
 The headline result is that the kappa bound is not attained here, and the
 report should say so rather than quoting kappa alone.
-
-BSIT 400 -- CLO 1 (error propagation), CLO 2 (direct methods)
 """
 
 import numpy as np
