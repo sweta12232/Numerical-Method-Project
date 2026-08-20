@@ -7,7 +7,6 @@ This experiment answers one question: can the least-squares normal equations
 for this dataset be solved reliably in double precision, and what does column
 scaling do to the answer?
 
-BSIT 400 -- CLO 1 (error propagation), CLO 2 (direct methods), CLO 3 (eigenvalues)
 """
 
 import csv
