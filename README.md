@@ -82,31 +82,7 @@ the point estimate).
 | Gauss-Seidel | Direct methods win outright on a 3×3 system. |
 | Gaussian quadrature | No integral arises in the problem. |
 
-## Key findings beyond the fit
 
-1. **κ₂ = 3.7 × 10¹⁵ on raw units, but the bound is not attained.** Tested in
-   single precision: raw units were 3.6× worse than scaled, against a
-   predicted 10¹⁰. κ₂ is a worst case over all right-hand sides. Scaling is
-   applied regardless, since the favourable alignment cannot be verified in
-   advance for new data.
-
-2. **A small residual does not imply a small error.** Both solvers returned
-   residuals near 10⁻¹⁶ even in the worst-conditioned case.
-
-3. **The residual definition mattered more than any numerical choice.** The
-   relative residual `(y−f)/y` is asymmetric — bounded for under-prediction,
-   unbounded for over-prediction — and biased predictions downward by 18%
-   (36 of 50 states). The log-ratio residual `ln(y/f)` is symmetric and
-   unbiased.
-
-4. **R² selected the worst model.** The absolute-residual fit scored the
-   highest R² (0.881) with the worst median error (78%) and 47 of 50 states
-   under-predicted, because R² is dominated by California.
-
-5. **The residuals identify the model's own weakness.** Under-predicted states
-   (Vermont, Maine, Rhode Island, Connecticut, California, Oregon) are all
-   Section 177 ZEV-programme states; over-predicted states are not. State EV
-   policy is the dominant omitted variable.
 
 ## Verification
 
